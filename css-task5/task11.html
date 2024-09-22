@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <style>
+    .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 400px;
+  padding: 10px;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+.grid div {
+  background-color: #efefef;
+}
+
+.four {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.four div {
+  padding: 5px;
+  background-color: #cfcfcf;
+}
+
+.vertical-line {
+  display: grid;
+  row-gap: 5px;
+}
+
+.vertical-line div {
+  background-color: #cfcfcf;
+}
+
+.horizantal-line {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5px;
+}
+
+.horizantal-line div {
+  background-color: #cfcfcf;
+}
+   </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="grid">
+          <div class="item1">item1</div>
+          <div class="four">
+            <div>sub1</div>
+            <div>sub2</div>
+            <div>sub3</div>
+            <div>sub4</div>
+          </div>
+          <div class="four">
+            <div>sub1</div>
+            <div>sub2</div>
+            <div>sub3</div>
+            <div>sub4</div>
+          </div>
+          <div class="item4">item4</div>
+          <div class="item5">item5</div>
+          <div class="vertical-line">
+            <div>sub1</div>
+            <div>sub2</div>
+          </div>
+          <div class="horizantal-line">
+            <div>sub1</div>
+            <div>sub2</div>
+          </div>
+          <div class="item8">item8</div>
+          <div class="four">
+            <div>sub1</div>
+            <div>sub2</div>
+            <div>sub3</div>
+            <div>sub4</div>
+          </div>
+          <div class="item10">item10</div>
+          <div class="item11">item11</div>
+          <div class="four">
+            <div>sub1</div>
+            <div>sub2</div>
+            <div>sub3</div>
+            <div>sub4</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

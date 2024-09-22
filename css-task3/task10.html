@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Colored Box Shadow</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0; /* Light grey background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .shadow-box {
+        width: 200px;
+        height: 200px;
+        background-color: #fff; /* White background for the box */
+        border: 1px solid #000; /* Black border */
+        box-shadow: 10px -10px #ff0000, /* Red shadow */ 20px -20px #00ff00,
+          /* Green shadow */ 30px -30px #0000ff,
+          /* Blue shadow */ 40px -40px #ffff00; /* Yellow shadow */
+        font-size: 16px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px; /* Aligns the text vertically */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shadow-box">Multi box shadow</div>
+  </body>
+</html>

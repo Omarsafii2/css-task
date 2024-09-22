@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Borders Example</title>
+    <style>
+      .border-box {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 30%;
+      }
+
+      .first {
+        border: 3px black;
+        border-style: dashed solid dashed solid;
+      }
+
+      .second {
+        border: 3px black;
+        border-style: solid solid dashed dotted;
+      }
+
+      .third {
+        border: 3px dotted black;
+      }
+
+      .fourth {
+        border: 3px solid black;
+      }
+      .fifth {
+        border: 3px solid blue;
+      }
+
+      .sixth {
+        border-top: 4px solid green; 
+        border-bottom: 4px dotted green; 
+        border-left: 4px solid green; 
+        border-right: 4px solid blue; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border-box first">
+      This is the example of CSS Border Style property.
+    </div>
+    <div class="border-box second">
+      This is the example of CSS Border Style Shorthand property. The border
+      style defines with order: top, right, bottom and then left side of HTML
+      element.
+    </div>
+    <div class="border-box third">
+      This is the example of CSS Border Width, Style and Color properties.
+    </div>
+    <div class="border-box fourth">
+      This is the example of CSS Border Style Shorthand property. Please note
+      that border style is the only mandatory thing to set border. Border width
+      & color is optional and those values can be taken from browsers default.
+    </div>
+    <div class="border-box fifth">
+      This is the example of CSS Border Style Shorthand property. Please note
+      that border style is the only mandatory thing to set border. Border width
+      & color is optional and those values can be taken from browsers default.
+    </div>
+    <div class="border-box sixth">
+      This is the example of CSS Border Shorthand property.
+    </div>
+  </body>
+</html>

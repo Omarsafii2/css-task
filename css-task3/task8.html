@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        text-align: center;
+        width: 100%;
+        background-color: white;
+      }
+
+      .top-bar,
+      .bottom-bar {
+        height: 50px;
+      }
+
+      .top-bar {
+        background-color: #00bfff; 
+        margin-bottom: 20px;
+      }
+
+      .bottom-bar {
+        background-color: #ff69b4; 
+        margin-top: 20px;
+      }
+
+      .counter {
+        font-size: 24px;
+        color: #333;
+        margin: 20px;
+      }
+
+      #restart {
+        background-color: #4caf50; 
+        color: white;
+        border: none;
+        padding: 20px 30px;
+        border-radius: 5px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-bar"></div>
+      <div class="counter">
+       <b> You have hit the spacebar <span id="count">0</span> times.</b>
+      </div>
+      <button id="restart">RESTART</button>
+      <div class="bottom-bar"></div>
+    </div>
+  </body>
+</html>

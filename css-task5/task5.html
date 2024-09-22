@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .box-one,
+      .box-two,
+      .box-three {
+        display: flex;
+        width: 500px;
+        gap: 10px;
+
+        padding: 10px;
+      }
+      .item {
+        background-color: #4d7298;
+        border: 2px solid #77a6b6;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+      .box-one .item {
+        width: calc(100% / 4);
+      }
+      .box-two .item {
+        width: calc(100% / 3);
+      }
+      .box-three .item {
+        width: calc(100% / 3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-one">
+        <div class="item">Turnip</div>
+        <div class="item">greens</div>
+        <div class="item">yarrow</div>
+        <div class="item">ricebean</div>
+      </div>
+      <div class="box-two">
+        <div class="item">rutabaga</div>
+        <div class="item">endive</div>
+        <div class="item">cauliflower</div>
+      </div>
+      <div class="box-three">
+        <div class="item">sea lettuce</div>
+        <div class="item">kohlrabi</div>
+        <div class="item">amaranth</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .image-container {
+        position: relative;
+        width: 600px;
+        height: 400px;
+      }
+      .image-container img {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+      }
+
+      .image1 {
+        top: 0;
+        left: 0;
+        z-index: 10;
+      }
+      .image2 {
+        top: 25px;
+        left: 25px;
+        z-index: 3;
+      }
+      .image3 {
+        top: 50px;
+        left: 50px;
+        z-index: 4;
+      }
+      .image4 {
+        top: 75px;
+        left: 75px;
+        z-index: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="img/dna.jpeg" alt="" class="image1" />
+      <img src="img/pexels-alex-andrews-271121-816608.jpg" alt="" class="image2" />
+      <img src="img/rna.jpeg" alt="" class="image3" />
+      <img src="img/space1.jpeg" alt="" class="image4" />
+    </div>
+  </body>
+</html>

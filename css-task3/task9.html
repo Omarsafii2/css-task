@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 255, 0.7),
+          /* Outer blue glow */ 0 0 30px rgba(0, 0, 255, 0.5),
+          /* More spread blue glow */ 0 0 60px rgba(0, 0, 255, 0.3); /* Even more spread blue glow */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000; /* Black text color */
+        font-size: 30px; /* Large font size */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">Center 😉</div>
+  </body>
+</html>
